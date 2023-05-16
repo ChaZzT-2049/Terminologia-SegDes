@@ -1,0 +1,74 @@
+[
+	{
+		"id": "1",
+		"termino": "SDLC",
+		"definicion": "Concepto de SDLC",
+		"unidad": "1"
+	},
+	{
+		"id": "2",
+		"termino": "S-SDLC",
+		"definicion": "Concepto de S-SDLC",
+		"unidad": "1"
+	},
+	{
+		"id": "3",
+		"termino": "Metodologia",
+		"definicion": "Concepto de metodologia",
+		"unidad": "1"
+	},
+	{
+		"id": "4",
+		"termino": "Modelo",
+		"definicion": "Concepto de modelo",
+		"unidad": "1"
+	},
+	{
+		"id": "5",
+		"termino": "Matriz de Pruebas",
+		"definicion": "Concepto de matriz de pruebas",
+		"unidad": "1"
+	},
+	{
+		"id": "6",
+		"termino": "Depuración",
+		"definicion": "Concepto de depuración",
+		"unidad": "1"
+	},
+	{
+		"id": "7",
+		"termino": "Encriptación",
+		"definicion": "Concepto de encriptacion",
+		"unidad": "1"
+	},
+	{
+		"id": "8",
+		"termino": "Librería",
+		"definicion": "Concepto de librería",
+		"unidad": "1"
+	},
+	{
+		"id": "9",
+		"termino": "Metrica",
+		"definicion": "Concepto de metrica",
+		"unidad": "1"
+	},
+	{
+		"id": "10",
+		"termino": "Criptografía",
+		"definicion": "Concepto de criptografía",
+		"unidad": "1"
+	},
+	{
+		"id": "11",
+		"termino": "OWASP",
+		"definicion": "Concepto de OWASP",
+		"unidad": "1"
+	},
+	{
+		"id": "12",
+		"termino": "cunidad2",
+		"definicion": "Concepto de cunidad2",
+		"unidad": "2"
+	}
+]
