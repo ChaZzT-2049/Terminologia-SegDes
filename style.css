@@ -60,7 +60,7 @@ main{
 }
 .btn:hover{
     background-color: #3e5ec9;
-    color: #FFFFFF;
+    color: #CCCCCC;
 }
 hr{
     border-style: solid;
@@ -78,7 +78,13 @@ hr{
     font-weight: 100;
     text-decoration: underline;
 }
-
+.titulo-concepto{
+    font-size: 16px;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: bolder;
+    display: none;
+}
 .parrafo{
     font-size: 16px;
     font-style: italic;
