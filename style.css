@@ -1,7 +1,7 @@
 .encabezado{
     background-color: #0A3871;
     padding: 1em;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bolder;
     text-align: center;
     color:#FFFFFF
@@ -58,19 +58,17 @@ main{
     cursor: pointer;
     transition: all 500ms;
 }
-.btn:hover{
-    background-color: #3e5ec9;
-    color: #CCCCCC;
-}
 hr{
     border-style: solid;
     border-color: #CCCCCC;
 }
 .container{
     display: none;
-    padding: 1em;
+    padding: 1.5em;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.10);
+    margin-bottom: 1em;
 }
 .titulo-terciario{
     font-size: 18px;
