@@ -45,7 +45,22 @@ main{
     overflow-x: auto;
 }
 .buttons::-webkit-scrollbar{
-    width: 0;
+    width: auto;
+    height: 10px;
+    background-color: #F3F5FC;
+}
+.buttons::-webkit-scrollbar-thumb{
+    height: 2px;
+    width: 4px;
+    background-color: #0a5588;
+    border-radius: 6px;
+}
+.buttons::-webkit-scrollbar-track-piece{
+    border-radius: 2px;
+    background-color: #3e5ec9;
+    background-clip: content-box;
+    border-radius: 6px;
+    border: solid 4px transparent;
 }
 .btn{
     padding: 10px;
@@ -66,9 +81,28 @@ hr{
     display: none;
     padding: 1.5em;
     background-color: #FFFFFF;
-    border-radius: 32px;
+    border-radius: 24px 0 0 24px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.10);
     margin-bottom: 1em;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.container::-webkit-scrollbar{
+    width: auto;
+    background-color: #FFFFFF;
+}
+.container::-webkit-scrollbar-thumb{
+    height: 5px;
+    width: 4px;
+    background-color: #0A3871;
+    border-radius: 6px;
+}
+.container::-webkit-scrollbar-track-piece{
+    border-radius: 2px;
+    background-color: #3e5ec9;
+    background-clip: content-box;
+    border-radius: 6px;
+    border: solid 4px transparent;
 }
 .titulo-terciario{
     font-size: 18px;
