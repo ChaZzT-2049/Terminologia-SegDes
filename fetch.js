@@ -17,6 +17,8 @@ function loadInfo() {
         //
         let titulos1 = "";
         let titulos2 = "";
+
+        let refs1 = "";
         //obtener los botones de cada unidad mandando data y el valor de la unidad
         buttons1 = getButtons(data, 1);
         buttons2 = getButtons(data, 2);
@@ -26,6 +28,8 @@ function loadInfo() {
         //
         titulos1 = getTitles(data, 1);
         titulos2 = getTitles(data, 2);
+        
+        refs1 = getRefs(data, 1);
         //agregar los botones de cada unidad al html
         document.getElementById('buttons-u1').innerHTML = buttons1;
         document.getElementById('buttons-u2').innerHTML = buttons2;
@@ -35,6 +39,8 @@ function loadInfo() {
         //
         document.getElementById('titulos-u1').innerHTML = titulos1;
         document.getElementById('titulos-u2').innerHTML = titulos2;
+
+        document.getElementById('refu1').innerHTML = refs1;
     }
 }
 //funcion obtener botones recibe la data y la unidad
@@ -77,6 +83,20 @@ function getTitles(data, unidad){
     });
     //se regresan los datos creados
     return titulos
+}
+function getRefs(data, unidad){
+    //variable que almacena los botones
+    let refs = ""
+    //recorrer la data
+    data.forEach(element => {
+        //si el elemento pertenece a la unidad enviada entonces se crea un boton con los datos del elemento
+        if(element.unidad == unidad){
+            //el elemento llama a una funcion que dibujara la definicion en la pantalla con cada click
+            refs += `<p id="${element.id}" class="titulo-ref">${element.referencia}</p>`;
+        }
+    });
+    //se regresan los datos creados
+    return refs
 }
 //llamada a la funcion principal
 loadInfo();

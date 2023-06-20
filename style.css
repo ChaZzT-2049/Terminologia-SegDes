@@ -117,6 +117,9 @@ hr{
     font-weight: bolder;
     display: none;
 }
+.titulo-ref{
+    display: none;
+}
 .parrafo{
     font-size: 16px;
     font-style: italic;
@@ -129,6 +132,38 @@ hr{
 }
 .parrafo::after{
     content: ".";
+}
+#referenciasu1{
+    display: none;
+}
+.toggle{
+    display: inline-block;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid #3e5ec9;
+    text-align: center;
+}
+.toggle input {
+    display: none;
+}
+.slider {
+    cursor: pointer;
+    border-radius: 7px;
+}
+input:checked + .slider {
+    width: 80px;
+    background-color: #3e5ec9;
+    color: #FFFFFF;
+}  
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+.text{
+    font-size: 16px; /* Tamaño de letra */
+}
+  
+input:checked + .slider .text {
+    display: block;
 }
 footer{
     position: fixed;
