@@ -133,12 +133,13 @@ hr{
 .parrafo::after{
     content: ".";
 }
-#referenciasu1{
+#referenciasu1, #referenciasu2{
     display: none;
 }
 .toggle{
     display: inline-block;
-    width: 80px;
+    color: #3e5ec9;
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid #3e5ec9;
     text-align: center;
@@ -150,11 +151,11 @@ hr{
     cursor: pointer;
     border-radius: 7px;
 }
-input:checked + .slider {
-    width: 80px;
+.toggle input:checked + .slider{
+    padding: 10px;
     background-color: #3e5ec9;
     color: #FFFFFF;
-}  
+}
 input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
 }
